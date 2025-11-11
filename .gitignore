@@ -1,0 +1,66 @@
+# =========================
+# Node / React (Frontend)
+# =========================
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.pnp
+/frontend/pnpm-lock.yaml
+/frontend/.parcel-cache
+/frontend/.turbo
+/frontend/.next
+/frontend/dist
+
+# React testing / coverage
+/frontend/coverage
+
+# =========================
+# Python / Flask (Backend)
+# =========================
+/__pycache__/
+/backend/__pycache__/
+/venv/
+/env/
+/backend/instance/
+/backend/.pytest_cache/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+
+# Flask specific
+*.db
+*.sqlite3
+*.log
+
+# =========================
+# Environment & Config
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.yaml
+
+# =========================
+# OS / Editor / Misc
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# =========================
+# Project Generated Files
+# =========================
+suspicious_dns_live.csv
+top_domains_live.png
+
+# =========================
+# Build Artifacts
+# =========================
+/dist
+/out
